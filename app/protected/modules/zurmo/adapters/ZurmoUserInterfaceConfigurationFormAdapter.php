@@ -74,8 +74,8 @@
            }
            else
            {
-               $logoThumbFilePath = Yii::app()->theme->basePath . DIRECTORY_SEPARATOR . 'images' . DIRECTORY_SEPARATOR . 'Zurmo_logo.png';
-               $logoThumbFileSrc  = Yii::app()->themeManager->baseUrl . '/default/images/Zurmo_logo.png';
+               $logoThumbFilePath = Yii::app()->theme->basePath . DIRECTORY_SEPARATOR . 'images' . DIRECTORY_SEPARATOR . 'GICRM_logo.png';
+               $logoThumbFileSrc  = Yii::app()->themeManager->baseUrl . '/default/images/GICRM_logo.png';
                $logoFileData      = array('name'              => pathinfo($logoThumbFilePath, PATHINFO_FILENAME),
                                           'type'              => ZurmoFileHelper::getMimeType($logoThumbFilePath),
                                           'size'              => filesize($logoThumbFilePath),

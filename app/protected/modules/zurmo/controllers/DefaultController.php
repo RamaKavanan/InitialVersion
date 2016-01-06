@@ -521,7 +521,7 @@
             if ($newUnreadMashableInbox > $unreadMashableInbox)
             {
                 $data['unreadMashableInbox'] = $newUnreadMashableInbox;
-                $data['imgUrl']              = Yii::app()->request->hostinfo . Yii::app()->theme->baseUrl . '/images/z-logo-60x60.png';
+                $data['imgUrl']              = Yii::app()->request->hostinfo . Yii::app()->theme->baseUrl . '/images/GICRMLOGO_60x60.png';
                 $data['title']               = Zurmo::t('ZurmoModule', 'ZurmoCRM - Item update');
                 $data['message']             = Zurmo::t('ZurmoModule', 'There is an item with unread changes.');
                 echo CJSON::encode($data);

@@ -55,7 +55,7 @@
             //feasible for technical reasons, the Appropriate Legal Notices must display the words
             //"Copyright Zurmo Inc. 2015. All rights reserved".
             $copyrightHtml  = '<a href="http://www.zurmo.com" id="credit-link" class="clearfix"><span>' .
-                             'Copyright &#169; Zurmo Inc., 2015. All rights reserved.</span></a>';
+                             'Copyright &#169; GICRM Inc., 2015. All rights reserved.</span></a>';
             $copyrightHtml .= $this->renderPerformance();
             $content = ZurmoHtml::tag('div', array('class' => 'container'), $copyrightHtml);
             return $content;

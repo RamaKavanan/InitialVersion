@@ -135,7 +135,7 @@
             }
             else
             {
-                $logoFileSrc   = Yii::app()->themeManager->baseUrl . '/default/images/Zurmo_logo.png';
+                $logoFileSrc   = Yii::app()->themeManager->baseUrl . '/default/images/GICRM_logo.png';
             }
             $logoHeight = ZurmoUserInterfaceConfigurationFormAdapter::resolveLogoHeight();
             $logoWidth  = ZurmoUserInterfaceConfigurationFormAdapter::resolveLogoWidth();
